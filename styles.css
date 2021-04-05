@@ -1,0 +1,13 @@
+.Grid{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    width: 400px;
+    grid-gap: 10px;
+}
+
+.GridItem{
+    background: yellowgreen;
+    align-content: center;
+}
