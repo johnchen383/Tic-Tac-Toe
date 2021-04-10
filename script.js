@@ -1,6 +1,15 @@
 const ticGridStart = [2, 0, 0, 0, 0, 0, 0, 0, 0];
 //2 is O    1 is X      0 is empty
 
+//PATTERNS --> first element is the pattern match and second element is the index
+const pattern1 = [[2, 0, 1, 0, 0, 0, 0, 0, 0], 1];
+const pattern2 = [[2, 2, 1, 0, 0, 1, 0, 0, 0], 7];
+const pattern3 = [[2, 1, 0, 0, 0, 0, 0, 0, 0], 5];
+const pattern4 = [[2, 1, 0, 0, 1, 2, 0, 0, 0], 7];
+const pattern5 = [[2, 1, 0, 0, 0, 2, 1, 0, 0], 3];
+const pattern6 = [[2, 1, 2, 1, 0, 2, 1, 0, 0], 8];
+const pattern7 = [[2, 1, 0, 0, 1, 2, 0, 1, 2], 2];
+
 var ticGrid = ticGridStart;
 var items = document.querySelectorAll(".GridItem");
 
